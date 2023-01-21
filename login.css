@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gara';
+    font-size: 23px;
+}
+
+.container{
+    height: 520px;
+    width: px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+     background-color: rgba(255, 255, 255, 0.685);  
+    text-align: center;
+}
+
+
+
+body{
+    background-image: url("../img/singapore-skyscrapers-marina-bay-sands-evening-4k-es.jpg");
+    min-height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+form{
+    color: black;
+}
+
+.logo{
+    height: 100px;
+    
+}
+
+@font-face {
+    font-family:  'Mont';
+    src: url('../fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family:  'Gara';
+    src: url('../fonts/AGaramondPro-Regular.otf');
+}
+
+.form-inline{
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    
+}
+
+.form-inline label {
+    margin:  5px 10px 5px 0;
+    
+}
+
+.form-inline input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    width: 350px;
+    background-color: transparent;
+    
+    border-radius: 10px;
+    color: black;
+}
+
+.form-inline button {
+    padding: 10px 20px;
+    background-color: rgba(105, 90, 205, 0.829);
+    border: 1px solid #ddd;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.form-inline button:hover{
+    
+    background-color: rgba(45, 95, 160, 0.514);
+}
+
+button{
+    margin-top: 20px;
+}
+
+@media (max-width: 800px){
+    .form-inline input{
+        margin: 10px 0;
+    }
+
+    .form-inline{
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
